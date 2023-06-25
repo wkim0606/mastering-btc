@@ -27,7 +27,7 @@ alias sendtoaddress='bitcoin-cli -regtest -rpcuser=test -rpcpassword=test -rpcpo
 alias generate='bitcoin-cli -regtest -rpcuser=test -rpcpassword=test -rpcport=12345 -datadir="$PWD/node1" generate'
 
 # bitcoin listaccounts
-alias listacconts='bitcoin-cli -regtest -rpcuser=test -rpcpassword=test -rpcport=12345 -datadir="$PWD/node1" listacconts'
+alias listaccounts='bitcoin-cli -regtest -rpcuser=test -rpcpassword=test -rpcport=12345 -datadir="$PWD/node1" listaccounts'
 
 # bitcoin start_node1_deprecated.sh
 alias start_node1_deprecated='bitcoind -regtest -rpcuser=test -rpcpassword=test -rpcport=12345 -port=123456 -datadir="$PWD/node1" -deprecatedrpc=accounts'
